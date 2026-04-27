@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="./PacMan.Application/PacMan.Application.csproj" />
+  <Project Path="./PacMan.Domain/PacMan.Domain.csproj" />
+  <Project Path="./PacMan.Tests/PacMan.Tests.csproj" />
+  <Project Path="./PacMan.Presentation/PacMan.Presentation.csproj" />
+</Solution>

@@ -1,0 +1,381 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Repos\\Pacman\\Pacman\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A0F4B59E-56BE-4284-A50F-9150C7A6BA95}|Pacman.csproj|c:\\repos\\pacman\\pacman\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0F4B59E-56BE-4284-A50F-9150C7A6BA95}|Pacman.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0F4B59E-56BE-4284-A50F-9150C7A6BA95}|Pacman.csproj|c:\\repos\\pacman\\pacman\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A0F4B59E-56BE-4284-A50F-9150C7A6BA95}|Pacman.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0F4B59E-56BE-4284-A50F-9150C7A6BA95}|Pacman.Presentation.csproj|c:\\repos\\pacman\\pacman\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0F4B59E-56BE-4284-A50F-9150C7A6BA95}|Pacman.Presentation.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0F4B59E-56BE-4284-A50F-9150C7A6BA95}|Pacman.Presentation.csproj|c:\\repos\\pacman\\pacman\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A0F4B59E-56BE-4284-A50F-9150C7A6BA95}|Pacman.Presentation.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0F4B59E-56BE-4284-A50F-9150C7A6BA95}|Pacman.Presentation.csproj|c:\\repos\\pacman\\pacman\\views\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0F4B59E-56BE-4284-A50F-9150C7A6BA95}|Pacman.Presentation.csproj|solutionrelative:views\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0F4B59E-56BE-4284-A50F-9150C7A6BA95}|Pacman.Presentation.csproj|c:\\repos\\pacman\\pacman\\viewmodels\\gameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0F4B59E-56BE-4284-A50F-9150C7A6BA95}|Pacman.Presentation.csproj|solutionrelative:viewmodels\\gameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0F4B59E-56BE-4284-A50F-9150C7A6BA95}|Pacman.Presentation.csproj|c:\\repos\\pacman\\pacman\\viewmodels\\cellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0F4B59E-56BE-4284-A50F-9150C7A6BA95}|Pacman.Presentation.csproj|solutionrelative:viewmodels\\cellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0F4B59E-56BE-4284-A50F-9150C7A6BA95}|Pacman.Presentation.csproj|c:\\repos\\pacman\\pacman\\services\\timerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0F4B59E-56BE-4284-A50F-9150C7A6BA95}|Pacman.Presentation.csproj|solutionrelative:services\\timerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0F4B59E-56BE-4284-A50F-9150C7A6BA95}|Pacman.Presentation.csproj|c:\\repos\\pacman\\pacman\\services\\itimerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0F4B59E-56BE-4284-A50F-9150C7A6BA95}|Pacman.Presentation.csproj|solutionrelative:services\\itimerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68912226-7A07-43AE-9AAE-9CBF87EDBA4B}|..\\PacMan.Application\\PacMan.Application.csproj|c:\\repos\\pacman\\pacman.application\\gameengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68912226-7A07-43AE-9AAE-9CBF87EDBA4B}|..\\PacMan.Application\\PacMan.Application.csproj|c:\\repos\\pacman\\pacman.application\\igameengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E84C1F8-A0B8-4A30-ACED-90F0FC29A10B}|..\\PacMan.Domain\\PacMan.Domain.csproj|c:\\repos\\pacman\\pacman.domain\\valueobjects\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E84C1F8-A0B8-4A30-ACED-90F0FC29A10B}|..\\PacMan.Domain\\PacMan.Domain.csproj|c:\\repos\\pacman\\pacman.domain\\rules\\movementrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E84C1F8-A0B8-4A30-ACED-90F0FC29A10B}|..\\PacMan.Domain\\PacMan.Domain.csproj|c:\\repos\\pacman\\pacman.domain\\rules\\imovementrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E84C1F8-A0B8-4A30-ACED-90F0FC29A10B}|..\\PacMan.Domain\\PacMan.Domain.csproj|c:\\repos\\pacman\\pacman.domain\\enums\\tiletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E84C1F8-A0B8-4A30-ACED-90F0FC29A10B}|..\\PacMan.Domain\\PacMan.Domain.csproj|c:\\repos\\pacman\\pacman.domain\\enums\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E84C1F8-A0B8-4A30-ACED-90F0FC29A10B}|..\\PacMan.Domain\\PacMan.Domain.csproj|c:\\repos\\pacman\\pacman.domain\\entities\\tile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E84C1F8-A0B8-4A30-ACED-90F0FC29A10B}|..\\PacMan.Domain\\PacMan.Domain.csproj|c:\\repos\\pacman\\pacman.domain\\entities\\pacman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E84C1F8-A0B8-4A30-ACED-90F0FC29A10B}|..\\PacMan.Domain\\PacMan.Domain.csproj|c:\\repos\\pacman\\pacman.domain\\entities\\grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E84C1F8-A0B8-4A30-ACED-90F0FC29A10B}|..\\PacMan.Domain\\PacMan.Domain.csproj|c:\\repos\\pacman\\pacman.domain\\entities\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 138,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Repos\\Pacman\\Pacman\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Repos\\Pacman\\Pacman\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-27T18:10:31.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Repos\\Pacman\\Pacman\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Repos\\Pacman\\Pacman\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T18:10:29.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ITimerService.cs",
+              "DocumentMoniker": "C:\\Repos\\Pacman\\Pacman\\Services\\ITimerService.cs",
+              "RelativeDocumentMoniker": "Services\\ITimerService.cs",
+              "ToolTip": "C:\\Repos\\Pacman\\Pacman\\Services\\ITimerService.cs",
+              "RelativeToolTip": "Services\\ITimerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T18:08:57.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IGameEngine.cs",
+              "DocumentMoniker": "C:\\Repos\\Pacman\\PacMan.Application\\IGameEngine.cs",
+              "RelativeDocumentMoniker": "..\\PacMan.Application\\IGameEngine.cs",
+              "ToolTip": "C:\\Repos\\Pacman\\PacMan.Application\\IGameEngine.cs",
+              "RelativeToolTip": "..\\PacMan.Application\\IGameEngine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T18:07:53.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Position.cs",
+              "DocumentMoniker": "C:\\Repos\\Pacman\\PacMan.Domain\\ValueObjects\\Position.cs",
+              "RelativeDocumentMoniker": "..\\PacMan.Domain\\ValueObjects\\Position.cs",
+              "ToolTip": "C:\\Repos\\Pacman\\PacMan.Domain\\ValueObjects\\Position.cs",
+              "RelativeToolTip": "..\\PacMan.Domain\\ValueObjects\\Position.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T17:54:47.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MovementRules.cs",
+              "DocumentMoniker": "C:\\Repos\\Pacman\\PacMan.Domain\\Rules\\MovementRules.cs",
+              "RelativeDocumentMoniker": "..\\PacMan.Domain\\Rules\\MovementRules.cs",
+              "ToolTip": "C:\\Repos\\Pacman\\PacMan.Domain\\Rules\\MovementRules.cs",
+              "RelativeToolTip": "..\\PacMan.Domain\\Rules\\MovementRules.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T17:54:55.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TimerService.cs",
+              "DocumentMoniker": "C:\\Repos\\Pacman\\Pacman\\Services\\TimerService.cs",
+              "RelativeDocumentMoniker": "Services\\TimerService.cs",
+              "ToolTip": "C:\\Repos\\Pacman\\Pacman\\Services\\TimerService.cs",
+              "RelativeToolTip": "Services\\TimerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T17:56:10.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CellViewModel.cs",
+              "DocumentMoniker": "C:\\Repos\\Pacman\\Pacman\\ViewModels\\CellViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CellViewModel.cs",
+              "ToolTip": "C:\\Repos\\Pacman\\Pacman\\ViewModels\\CellViewModel.cs",
+              "RelativeToolTip": "ViewModels\\CellViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T17:56:30.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Repos\\Pacman\\Pacman\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Repos\\Pacman\\Pacman\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-27T16:30:36.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Repos\\Pacman\\Pacman\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Repos\\Pacman\\Pacman\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T16:30:34.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IMovementRules.cs",
+              "DocumentMoniker": "C:\\Repos\\Pacman\\PacMan.Domain\\Rules\\IMovementRules.cs",
+              "RelativeDocumentMoniker": "..\\PacMan.Domain\\Rules\\IMovementRules.cs",
+              "ToolTip": "C:\\Repos\\Pacman\\PacMan.Domain\\Rules\\IMovementRules.cs",
+              "RelativeToolTip": "..\\PacMan.Domain\\Rules\\IMovementRules.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T18:00:35.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TileType.cs",
+              "DocumentMoniker": "C:\\Repos\\Pacman\\PacMan.Domain\\Enums\\TileType.cs",
+              "RelativeDocumentMoniker": "..\\PacMan.Domain\\Enums\\TileType.cs",
+              "ToolTip": "C:\\Repos\\Pacman\\PacMan.Domain\\Enums\\TileType.cs",
+              "RelativeToolTip": "..\\PacMan.Domain\\Enums\\TileType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T17:54:37.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameViewModel.cs",
+              "DocumentMoniker": "C:\\Repos\\Pacman\\Pacman\\ViewModels\\GameViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\GameViewModel.cs",
+              "ToolTip": "C:\\Repos\\Pacman\\Pacman\\ViewModels\\GameViewModel.cs",
+              "RelativeToolTip": "ViewModels\\GameViewModel.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAzwHwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T17:56:24.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.cs",
+              "DocumentMoniker": "C:\\Repos\\Pacman\\Pacman\\Views\\MainWindow.cs",
+              "RelativeDocumentMoniker": "Views\\MainWindow.cs",
+              "ToolTip": "C:\\Repos\\Pacman\\Pacman\\Views\\MainWindow.cs",
+              "RelativeToolTip": "Views\\MainWindow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T17:56:17.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Direction.cs",
+              "DocumentMoniker": "C:\\Repos\\Pacman\\PacMan.Domain\\Enums\\Direction.cs",
+              "RelativeDocumentMoniker": "..\\PacMan.Domain\\Enums\\Direction.cs",
+              "ToolTip": "C:\\Repos\\Pacman\\PacMan.Domain\\Enums\\Direction.cs",
+              "RelativeToolTip": "..\\PacMan.Domain\\Enums\\Direction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T17:54:30.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Tile.cs",
+              "DocumentMoniker": "C:\\Repos\\Pacman\\PacMan.Domain\\Entities\\Tile.cs",
+              "RelativeDocumentMoniker": "..\\PacMan.Domain\\Entities\\Tile.cs",
+              "ToolTip": "C:\\Repos\\Pacman\\PacMan.Domain\\Entities\\Tile.cs",
+              "RelativeToolTip": "..\\PacMan.Domain\\Entities\\Tile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T17:54:21.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Pacman.cs",
+              "DocumentMoniker": "C:\\Repos\\Pacman\\PacMan.Domain\\Entities\\Pacman.cs",
+              "RelativeDocumentMoniker": "..\\PacMan.Domain\\Entities\\Pacman.cs",
+              "ToolTip": "C:\\Repos\\Pacman\\PacMan.Domain\\Entities\\Pacman.cs",
+              "RelativeToolTip": "..\\PacMan.Domain\\Entities\\Pacman.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T17:54:08.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Grid.cs",
+              "DocumentMoniker": "C:\\Repos\\Pacman\\PacMan.Domain\\Entities\\Grid.cs",
+              "RelativeDocumentMoniker": "..\\PacMan.Domain\\Entities\\Grid.cs",
+              "ToolTip": "C:\\Repos\\Pacman\\PacMan.Domain\\Entities\\Grid.cs",
+              "RelativeToolTip": "..\\PacMan.Domain\\Entities\\Grid.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAmwFYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T17:54:15.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Repos\\Pacman\\PacMan.Domain\\Entities\\Game.cs",
+              "RelativeDocumentMoniker": "..\\PacMan.Domain\\Entities\\Game.cs",
+              "ToolTip": "C:\\Repos\\Pacman\\PacMan.Domain\\Entities\\Game.cs",
+              "RelativeToolTip": "..\\PacMan.Domain\\Entities\\Game.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T17:54:01.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GameEngine.cs",
+              "DocumentMoniker": "C:\\Repos\\Pacman\\PacMan.Application\\GameEngine.cs",
+              "RelativeDocumentMoniker": "..\\PacMan.Application\\GameEngine.cs",
+              "ToolTip": "C:\\Repos\\Pacman\\PacMan.Application\\GameEngine.cs",
+              "RelativeToolTip": "..\\PacMan.Application\\GameEngine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T17:55:14.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
