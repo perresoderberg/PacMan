@@ -20,7 +20,7 @@ The purpose of this project is to demonstrate:
 ---
 
 ## Architecture
-
+```
 The solution is divided into clear layers:
 PacMan
 │
@@ -28,7 +28,7 @@ PacMan
 ├── PacMan.Application # Use cases
 ├── PacMan.Presentation # WPF UI (MVVM)
 ├── PacMan.Tests # Unit tests
-
+```
 
 ### Domain Layer
 Contains all core logic:
