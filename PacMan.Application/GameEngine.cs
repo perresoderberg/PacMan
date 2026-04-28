@@ -15,6 +15,8 @@ public class GameEngine : IGameEngine
 
     public Game Tick(Game current, Direction? input)
     {
-        return current.Tick(_rules, input);
+        var (pacman, grid) = _rules.Move(current.Pacman, current.Grid, input);
+
+        return current.With(pacman, grid);
     }
 }
