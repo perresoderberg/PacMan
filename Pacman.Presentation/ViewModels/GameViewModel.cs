@@ -6,7 +6,6 @@ using System.Collections.ObjectModel;
 using DomainGrid = PacMan.Domain.Entities.Grid;
 
 namespace PacMan.Presentation.ViewModels;
-
 public class GameViewModel : ViewModelBase
 {
     private readonly IGameEngine _engine;
@@ -24,15 +23,72 @@ public class GameViewModel : ViewModelBase
 
         InitializeCells();
     }
-
     private Game CreateInitialGame()
     {
-        var grid = DomainGrid.CreateWithDots(20, 20);
-        var pacman = new Pacman(new Position(10, 10), Direction.Right);
+        var grid = CreateMaze();
+
+        var pacman = CreatePacman(grid);
 
         return new Game(pacman, grid);
     }
+    private Pacman CreatePacman(Grid grid)
+    {
+        var random = new Random();
 
+        var validPositions = grid
+            .GetAllPositionsOfType(TileType.Dot)
+            .ToList();
+
+        var position = validPositions[random.Next(validPositions.Count)];
+
+        return new Pacman(position, Direction.Right);
+    }
+    private Grid CreateMaze()
+    {
+        var layout = new[]
+        {
+        "####################",
+        "#........##........#",
+        "#.####.#.##.#.####.#",
+        "#o####.#.##.#.####o#",
+        "#..................#",
+        "#.####.##  ##.####.#",
+        "#......##  ##......#",
+        "######.##  ##.######",
+        "      .######.      ",
+        "######.######.######",
+        "#........##........#",
+        "#.####.#.##.#.####.#",
+        "#o..##.#.##.#.##..o#",
+        "###.##.######.##.###",
+        "#......##  ##......#",
+        "#.##########.#######",
+        "#..................#",
+        "####################"
+    };
+
+        int height = layout.Length;
+        int width = layout[0].Length;
+
+        var tiles = new Tile[width, height];
+
+        for (int y = 0; y < height; y++)
+        {
+            for (int x = 0; x < width; x++)
+            {
+                char c = layout[y][x];
+
+                tiles[x, y] = c switch
+                {
+                    '#' => new Tile(TileType.Wall),
+                    ' ' => new Tile(TileType.Empty),
+                    _ => new Tile(TileType.Dot)
+                };
+            }
+        }
+
+        return new Grid(width, height, tiles);
+    }
     public void Move(Direction direction)
     {
         _game = _engine.Tick(_game, direction);

@@ -15,7 +15,6 @@ public class Game
         Pacman = pacman;
         Grid = grid;
     }
-
     public Game Tick(IMovementRules rules, Direction? input)
     {
         var (pacman, grid) = rules.Move(Pacman, Grid, input);

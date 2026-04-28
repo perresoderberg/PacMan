@@ -2,7 +2,6 @@
 using PacMan.Domain.ValueObjects;
 
 namespace PacMan.Domain.Entities;
-
 public class Grid
 {
     private readonly Tile[,] _tiles;
@@ -22,15 +21,11 @@ public class Grid
 
     public Tile GetTile(Position pos)
     {
-
         var wrapped = Wrap(pos);
         return _tiles[wrapped.X, wrapped.Y];
     }
 
-    public bool IsWall(Position pos)
-    {
-        return GetTile(pos).Type == TileType.Wall;
-    }
+    public bool IsWall(Position pos) => GetTile(pos).Type == TileType.Wall;
 
     public Grid EatDot(Position pos)
     {
@@ -40,6 +35,7 @@ public class Grid
             return this;
 
         var newTiles = (Tile[,])_tiles.Clone();
+
         newTiles[wrapped.X, wrapped.Y] = new Tile(TileType.Empty);
 
         return new Grid(Width, Height, newTiles);
@@ -84,5 +80,18 @@ public class Grid
                 tiles[x, y] = new Tile(TileType.Dot);
 
         return new Grid(width, height, tiles);
+    }
+    public IEnumerable<Position> GetAllPositionsOfType(TileType type)
+    {
+        for (int x = 0; x < Width; x++)
+        {
+            for (int y = 0; y < Height; y++)
+            {
+                if (_tiles[x, y].Type == type)
+                {
+                    yield return new Position(x, y);
+                }
+            }
+        }
     }
 }

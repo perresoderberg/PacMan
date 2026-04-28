@@ -3,7 +3,6 @@ using PacMan.Domain.Enums;
 using PacMan.Domain.ValueObjects;
 
 namespace PacMan.Domain.Rules;
-
 public class MovementRules : IMovementRules
 {
     public (Pacman Pacman, Grid Grid) Move(Pacman pacman, Grid grid, Direction? input)
@@ -13,14 +12,11 @@ public class MovementRules : IMovementRules
         var nextPosition = GetNextPosition(pacman.Position, direction);
         var wrapped = grid.Wrap(nextPosition);
 
-        // Wall check
         if (grid.IsWall(wrapped))
         {
-            // Cannot move, but direction may change
             return (pacman.WithDirection(direction), grid);
         }
 
-        // Move + eat dot
         var updatedGrid = grid.EatDot(wrapped);
 
         var updatedPacman = pacman
@@ -30,15 +26,13 @@ public class MovementRules : IMovementRules
         return (updatedPacman, updatedGrid);
     }
 
-    private static Position GetNextPosition(Position pos, Direction direction)
-    {
-        return direction switch
+    private static Position GetNextPosition(Position position, Direction direction) =>
+        direction switch
         {
-            Direction.Up => new Position(pos.X, pos.Y - 1),
-            Direction.Down => new Position(pos.X, pos.Y + 1),
-            Direction.Left => new Position(pos.X - 1, pos.Y),
-            Direction.Right => new Position(pos.X + 1, pos.Y),
-            _ => pos
+            Direction.Up => new Position(position.X, position.Y - 1),
+            Direction.Down => new Position(position.X, position.Y + 1),
+            Direction.Left => new Position(position.X - 1, position.Y),
+            Direction.Right => new Position(position.X + 1, position.Y),
+            _ => position
         };
-    }
 }

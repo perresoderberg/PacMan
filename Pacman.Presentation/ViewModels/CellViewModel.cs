@@ -15,7 +15,6 @@ public class CellViewModel : ViewModelBase
     public bool HasDot => _tile.Type == TileType.Dot;
     public bool IsWall => _tile.Type == TileType.Wall;
     public bool HasPacman => _hasPacman;
-
     public double Rotation => _direction switch
     {
         Direction.Right => 0,
@@ -34,9 +33,6 @@ public class CellViewModel : ViewModelBase
 
     public void Update(Tile tile, bool hasPacman, Direction direction)
     {
-        if (_hasPacman)
-            ;
-
         _tile = tile;
         _hasPacman = hasPacman;
         _direction = direction;

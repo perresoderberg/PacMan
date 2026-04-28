@@ -24,7 +24,22 @@
                         <!-- Background -->
                         <Border Background="Black"/>
 
-                        <!-- Dot -->
+                        <!-- WALL -->
+                        <Border>
+                            <Border.Style>
+                                <Style TargetType="Border">
+                                    <Setter Property="Background" Value="Transparent"/>
+
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding IsWall}" Value="True">
+                                            <Setter Property="Background" Value="Blue"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Border.Style>
+                        </Border>
+
+                        <!-- DOT -->
                         <Ellipse Width="6"
                                  Height="6"
                                  Fill="Yellow"
@@ -42,8 +57,15 @@
                             </Ellipse.Style>
                         </Ellipse>
 
-                        <!-- Pacman -->
-                        <Image Source="/Images/pacman.png">
+                        <!-- PACMAN -->
+                        <Image Source="/Images/pacman.png"
+                               Width="20"
+                               Height="20"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"
+                               SnapsToDevicePixels="True"
+                               RenderOptions.BitmapScalingMode="NearestNeighbor">
+
                             <Image.Style>
                                 <Style TargetType="Image">
                                     <Setter Property="Visibility" Value="Collapsed"/>
@@ -57,8 +79,8 @@
 
                             <Image.RenderTransform>
                                 <RotateTransform Angle="{Binding Rotation}"
-                                                 CenterX="12"
-                                                 CenterY="12"/>
+                                                 CenterX="10"
+                                                 CenterY="10"/>
                             </Image.RenderTransform>
                         </Image>
 
